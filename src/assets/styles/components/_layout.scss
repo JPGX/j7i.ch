@@ -1,0 +1,41 @@
+//layout variables
+
+.layout__left {
+    width: 40%;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    background-image: url("/assets/img/layout--portrait.png");
+    background-position: 0;
+    background-size: cover;
+    overflow: hidden;
+    
+    @media (max-width: $mobile) {
+        width: 100%;
+        height: 70vh;
+        position: relative;
+    }
+}
+
+.layout__right {
+    min-height: 100vh;
+    width: 60%;
+    right: 0;
+    position: absolute;
+    background-color: red;
+    
+    @media (max-width: $mobile) {
+        width: 100%;
+        position: relative;
+    }
+}
+
+.layout-overlay {
+    background-color: rgba(65,136,253,0.5);
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
