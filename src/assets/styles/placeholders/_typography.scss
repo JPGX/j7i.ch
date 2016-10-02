@@ -1,0 +1,89 @@
+%_intro-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+//use placeholders @extend
+//
+//.my-class {
+//    @extend %_intro-title;
+//}
+//
+//.another-class {
+//    @extend %_intro-title;
+//}
+//
+//
+//
+////output
+//
+//.my-class,
+//.another-class {
+//    font-size: 22px;
+//    font-weight: 600;
+//}
+//
+//
+//
+//-------------------------
+//
+////WRONG
+//.my-block {
+//    display: block;
+//    width: 100px;
+//    margin: 30px;
+//    background: red;
+//    
+//    &__xmas {
+//        background: green;
+//    }
+//}
+//
+////output 
+//
+//.my-block {
+//    display: block;
+//    width: 100px;
+//    margin: 30px;
+//    background: red;
+//}
+//
+//.my-block__xmas {
+//    background: green;
+//}
+//
+//
+////RIGHT 
+//
+//%_my-block-base {
+//    display: block;
+//    width: 100px;
+//    margin: 30px;
+//}
+//
+//.my-block {
+//    @extend %_my-block-base;
+//    background: red;
+//    
+//    &__xmas {
+//        @extend %_my-block-base;
+//        background: green;
+//    }
+//}
+//
+////output
+//
+//.my-block,
+//.my-block__xmas {
+//    display: block;
+//    width: 100px;
+//    margin: 30px;
+//}
+//
+//.my-block {
+//    background: red;
+//}
+//.my-block__xmas {
+//    background: green;
+//}
