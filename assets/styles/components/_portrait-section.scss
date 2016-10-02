@@ -1,0 +1,33 @@
+.portrait-section {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+
+
+    &--box {
+        border: 1px solid #FFF;
+        margin: 1rem;
+        padding: .5rem 1rem;
+    }
+
+    &--title {
+        font-size: 42px;
+    }
+
+    &--desc {
+        font-size: 32px;
+        letter-spacing: .04em;
+        padding-top: 6px;
+    }
+}
+
+.social-links {
+    margin-top: 24px;
+    display: flex;
+    transform: translateY(36px);
+
+    &--item {
+        display: block;
+        list-style: none;
+    }
+}
