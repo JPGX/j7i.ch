@@ -8,7 +8,16 @@
 @import "components/portrait-section";
 @import "components/introduction";
 @import "components/history-stream";
+@import "components/skills-section";
 
 body {
     font-family: $main-font;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 800;
+    line-height: 1;
 }

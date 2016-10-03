@@ -1,13 +1,13 @@
 .portrait-section {
     text-align: center;
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Pattaya', sans-serif;
 
 
     &--box {
         border: 1px solid #FFF;
-        margin: 1rem;
-        padding: .5rem 1rem;
+        margin: 16px;
+        padding: 8px 16px;
     }
 
     &--title {
@@ -17,17 +17,18 @@
     &--desc {
         font-size: 32px;
         letter-spacing: .04em;
+        line-height: 1;
         padding-top: 6px;
     }
 }
 
 .social-links {
     margin-top: 24px;
-    display: flex;
+    //display: flex;
     transform: translateY(36px);
 
     &--item {
-        display: block;
+        display: inline-flex;
         list-style: none;
     }
 }
