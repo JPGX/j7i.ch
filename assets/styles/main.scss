@@ -9,6 +9,7 @@
 @import "components/introduction";
 @import "components/history-stream";
 @import "components/skills-section";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro|Pattaya");
 
 body {
     font-family: $main-font;
@@ -16,8 +17,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3 {
-    margin: 0;
+h1 {
     font-weight: 800;
+    line-height: 1;
+    font-size: 34px;
     line-height: 1;
 }

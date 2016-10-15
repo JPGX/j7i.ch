@@ -1,17 +1,17 @@
 .introduction {
-    margin-top: 40vh;
-    padding: 0 32px 0 24px;
-    margin-bottom: 45vh;
-    margin-left: 8%;
-    margin-right: 14%;
+    padding-top: -webkit-calc(100% - #{$introPaddingHeight});
+    padding-top:    -moz-calc(100% - #{$introPaddingHeight});
+    padding-top:         calc(100% - #{$introPaddingHeight});
 
-    &--title {
-        font-size: 34px;
+    padding-bottom: -webkit-calc(100% - #{$introPaddingHeight});
+    padding-bottom:    -moz-calc(100% - #{$introPaddingHeight});
+    padding-bottom:         calc(100% - #{$introPaddingHeight});
+
+    &__title {
         margin-bottom: 8px;
-        line-height: 1;
     }
 
-    &--text {
+    &__text {
         font-size: 18px;
         line-height: 1.7;
     }

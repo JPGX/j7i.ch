@@ -4,17 +4,17 @@
     font-family: 'Pattaya', sans-serif;
 
 
-    &--box {
+    &__box {
         border: 1px solid #FFF;
         margin: 16px;
         padding: 8px 16px;
     }
 
-    &--title {
+    &__title {
         font-size: 42px;
     }
 
-    &--desc {
+    &__desc {
         font-size: 32px;
         letter-spacing: .04em;
         line-height: 1;
@@ -27,7 +27,7 @@
     //display: flex;
     transform: translateY(36px);
 
-    &--item {
+    &__item {
         display: inline-flex;
         list-style: none;
     }

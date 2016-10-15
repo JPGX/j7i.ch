@@ -1,6 +1,6 @@
 .stream-record {
   
-  &--logo {
+  &__logo {
     width: 30px;
     height: 30px;
     display: block;
@@ -9,31 +9,27 @@
     left: -15px;
   }
   
-  &--title {
+  &__title {
     font-size: 22px;
     margin-bottom: 8px;
   }
   
-  &--addition {
+  &__addition {
     font-size: 14px;
     margin: 4px 0 8px;
   }
   
-  &--desc {
+  &__desc {
     font-size: 16px;
     line-height: 1.5;
   }
 }
 
 .history-stream {
-  margin-left: 8%;
-  margin-right: 14%;
-  padding: 0 32px 0 24px;
 
-  &--title {
-    font-size: 34px;
-    margin-bottom: 48px;
-    line-height: 1;
+  &__title {
+    margin-bottom: 24px;
+    margin-left: -8px;
   }
 
   .stream-record:last-child {

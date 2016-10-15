@@ -1,0 +1,1 @@
+webpackJsonp([1,2],{0:function(e,n){"use strict";window.addEventListener("load",function(e){var n=document.querySelector("body");n.classList.add("page-is-open")})},5:function(e,n,o){e.exports=o(0)}},[5]);
